@@ -1,7 +1,12 @@
-function calculateDaysBetweenDates(begin, end) {
-    var beginDate = new Date(begin);
-    var endDate = new Date(end);
-    var days = Math.round((endDate - beginDate) / (1000 * 60 * 60 * 24));
-    return days;
+/**
+ * Solves equations of the form a * x = b
+ * @example <caption>Example usage of method1.</caption>
+ * // returns 2
+ * globalNS.method1(5, 10);
+ * @returns {String} Returns the value of x for the equation.
+ */
+
+function method1(a, b) {
+    return b / a;
 }
-console.log(calculateDaysBetweenDates('2015-01-01', '2015-01-31'))
+console.log(typeof method1(5, 10))
