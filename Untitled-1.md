@@ -2,5 +2,6 @@
 ```js
 // add two numbers
 
-function 
+function    
+
 ```
